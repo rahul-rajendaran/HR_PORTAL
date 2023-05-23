@@ -1,6 +1,8 @@
+require("dotenv").config()
 const { MongoClient } = require("mongodb");
 
-const uri ="mongodb+srv://rahulrajendran1012:Rahul123@cluster0.omrtt04.mongodb.net/?retryWrites=true&w=majority";
+
+const uri =`mongodb+srv://rahulrajendran1012:${process.env.MONGODB_PASSWORD}@cluster0.omrtt04.mongodb.net/?retryWrites=true&w=majority`;
 let db: any;
 const connectToDB = async () => {
   try {
