@@ -5,7 +5,7 @@
 1. Clone the repository:
 
 ```bash 
-
+https://github.com/rahul-rajendaran/HR_PORTAL.git
 ````
 2. Change to the project directory and Install dependencies
 
