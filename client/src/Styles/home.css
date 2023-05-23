@@ -1,0 +1,22 @@
+
+.card-first-div{
+    margin-top:3rem;
+}
+.card-margin{
+    padding:3rem;
+}
+.tohover-card:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  } 
+  .card-data{
+    color: black;
+  }
+  .total{
+    font-size: 20px;
+    color: rgb(81, 176, 231);
+  }
+  .profile-image{
+    height: 250px;
+    width: 750px;
+  }

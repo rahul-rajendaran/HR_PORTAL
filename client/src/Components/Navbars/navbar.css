@@ -1,0 +1,55 @@
+.nav_brand_span{
+    color: red;
+}
+.nav-brand{
+    margin-left: 5rem;
+}
+.navbar{
+    background-color: #008374;
+    height: 100px;
+    width: 100%;
+}
+
+  .nav-underline {
+    margin-left: 5rem;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .nav-underline::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-underline:hover::before {
+    width: 100%;
+  }
+  
+  .unique-hr{
+    background-color: #008374;
+    height: 350px;
+    width: 100%;
+  }
+  .welcome{
+    padding-top: 8.5rem;
+    font-size: 48px;
+    font-weight: 700;
+    color:white;
+  }
+  
+  .welcome-first-div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6rem;
+  }
+  .welcome-second-div{
+    width: 60%;
+  }
